@@ -1,12 +1,6 @@
-# Virtual environment
-## Creating a virtual environment
-To create a virtual environment with the name studysession
-`python -m venv studysession`
-
-## Activating a session
-After entering the studysession directory which is our virtual environment, open a terminal.   
-`source bin/activate`  
-
-
-
-
+| Action                                 | Command                                               |
+|----------------------------------------|-------------------------------------------------------|
+| Creating a virtual environment         | `python -m venv studysession`                         |
+| Activating the virtual environment     | `source studysession/bin/activate`                    |
+| Making the requirements.txt file       | `pip freeze > requirements.txt`                      |
+| Installing packages from requirements.txt | `pip install -r requirements.txt`                    |
